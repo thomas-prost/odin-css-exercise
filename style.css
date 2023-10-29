@@ -1,0 +1,120 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 {
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.white {
+    color: white;
+}
+
+button {
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+/* ––––––––––––––––––––––– */
+
+nav {
+    position: fixed;
+    left: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    margin: 20px;
+}
+
+li {
+    backdrop-filter: blur(5px);
+    background-color: #ffffff50;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.push-right {
+    margin-left: 15px;
+}
+
+/* ––––––––––––––––––––––– */
+
+.container-hero {
+    display: flex;
+    max-width: 80vw;
+    margin-top: 15vh;
+    gap: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.text-hero {
+    flex: 1 1 auto;
+}
+
+.title-hero {
+    font-size: 2em;
+}
+
+.image-hero {
+    max-width: 40vw;
+    border-radius: 5px;
+}
+
+/* ––––––––––––––––––––––– */
+
+.section-2 {
+    background-color: lightgray;
+    width: 100vw;
+}
+
+.title-2 {
+    margin: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container-2 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.framed-img {
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    filter: drop-shadow(0 0 0.25rem #00000010);
+}
+
+.card {
+    max-width: 200px;
+    text-align: center;
+}
